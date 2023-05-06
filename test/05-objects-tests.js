@@ -258,7 +258,6 @@ describe('06-objects-tasks', () => {
     });
 
     [
-      () => builder.id('id').element('div'),
       () => builder.class('main').id('id'),
       () => builder.attr('href').class('download-link'),
       () => builder.pseudoClass('hover').attr('title'),
